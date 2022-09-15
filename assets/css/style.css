@@ -4,25 +4,42 @@
     margin: 0;
 }
 
+/* General Styles */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.seo {
-    color: slategray;
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+h4{
+    font-size: 20px;
+}
+
+/* Tag Styles */
 
 nav {
     padding-top: 15px;
@@ -41,13 +58,29 @@ nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+main img {
+    max-height: 200px; 
 }
 
-p {
-    font-size: 16px;
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Class Syles */
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+
+.seo {
+    color: slategray;
 }
 
 .main-img {
@@ -65,15 +98,6 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
-
-main img {
-    max-height: 200px; 
-}
-
-main h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .float-left {
@@ -108,24 +132,10 @@ main h2 {
     color: #ffffff;
 }
 
-.benefit-sections h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .benefit-sections img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 
-footer h4{
-    font-size: 20px;
-}
