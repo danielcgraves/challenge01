@@ -69,8 +69,7 @@ footer {
     text-align: center;
 }
 
-/* Class Syles */
-
+/* Class Styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -83,7 +82,7 @@ footer {
     color: slategray;
 }
 
-.main-img {
+.main-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
